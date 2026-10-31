@@ -1,0 +1,25 @@
+'use client'
+
+import * as React from 'react'
+
+import { ComponentDocShell } from '@/components/components/component-doc-shell'
+import { EmojiPicker } from '@/components/ui/emoji-picker'
+
+const previewCode = `<EmojiPicker value={emoji} onChange={setEmoji} />`
+const usageCode = `import { EmojiPicker } from '@/components/ui/emoji-picker'
+
+<EmojiPicker value={emoji} onChange={setEmoji} />`
+
+export default function EmojiPickerPreview() {
+  const [emoji, setEmoji] = React.useState('')
+
+  return (
+    <ComponentDocShell
+      name="emoji-picker"
+      preview={<EmojiPicker value={emoji} onChange={setEmoji} />}
+      previewCode={previewCode}
+      usageCode={usageCode}
+      features={['Category groups.', 'Simple search/filter.', 'Keyboard-friendly popover trigger.']}
+    />
+  )
+}
