@@ -57,7 +57,7 @@ function HeroPill() {
     const fetchGitHubData = async () => {
       try {
         const repoResponse = await fetch(
-          'https://api.github.com/repos/hasanharman/form-builder',
+          'https://api.github.com/repos/tuanphilip/roform',
         )
         const repoData = await repoResponse.json()
 
@@ -98,7 +98,7 @@ function HeroPill() {
         <div className="flex flex-wrap justify-center gap-5 w-full">
           <div className={cn('z-10 flex -space-x-12 rtl:space-x-reverse')}>
             <Link
-              href="https://github.com/sponsors/hasanharman"
+              href="https://tuanphilip.github.io"
               target="_blank"
               className="group"
             >

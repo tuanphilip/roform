@@ -145,7 +145,7 @@ export default function SponsorsSection() {
         <p className="text-muted-foreground">
           If you&apos;d like to support Shadcn Form Builder, visit our{' '}
           <Link
-            href="https://github.com/sponsors/hasanharman"
+            href="https://tuanphilip.github.io"
             target="_blank"
             className="underline hover:text-foreground"
           >

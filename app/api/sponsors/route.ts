@@ -44,7 +44,7 @@ const SPONSORS_QUERY = `
 `
 
 export async function GET() {
-  const ghLogin = process.env.NEXT_PUBLIC_GH_LOGIN || 'hasanharman'
+  const ghLogin = process.env.NEXT_PUBLIC_GH_LOGIN || 'tuanphilip'
   const token = process.env.GITHUB_TOKEN || process.env.GH_SPONSORS_TOKEN
 
   // Fallback to local data when token not provided

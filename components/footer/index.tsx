@@ -14,7 +14,7 @@ interface Icon {
 const icons: Icon[] = [
   { icon: <LuGithub />, url: 'https://github.com/tuanphilip/roform' },
   { icon: <FaXTwitter />, url: 'https://x.com/strad3r' },
-  { icon: <LuMail />, url: 'mailto:hasanharman33@gmail.com' },
+  { icon: <LuMail />, url: 'mailto:tuanphuong.vu.hut@gmail.com' },
 ]
 
 type Link = {
